@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <style>
+    body {
+      background-image: url("https://images.unsplash.com/photo-1453173267031-c4c5ace6b624?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
+      background-position: center;
+      background-size: cover;
+    }
+
+    #myCanvas {
+      margin-top: 30px;
+      border-width: 10px;
+      background-color: white;
+      border-style: ridge;
+    }
+
+    h1,
+    h4 {
+      color: white !important;
+    }
+  </style>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <title>CAR RACING !!</title>
+</head>
+
+<body onload="add();">
+
+  <center>
+    <h1>CAR RACING</h1>
+    <canvas id="myCanvas" width="820" height="160">
+    </canvas>
+    <h4>
+      <b class="text-danger">NOTE : </b> IF CARS ARE NOT VISIABLE PRESS ANY ARROW KEY
+    </h4>
+   
+    <P id="winner" ></P>
+   
+    
+
+    <script>
+      function myFunction() {
+        alert("RED CAR:  UP W , LEFT A , DOWN S , RIGHT D . WHITE CAR:  UP U , LEFT H , DOWN J , RIGHT K ");
+      }
+    </script>
+  </center>
+  <script src="main.js">
+  </script>
+</body>
+
+</html>
